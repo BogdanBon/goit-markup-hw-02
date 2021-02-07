@@ -1,0 +1,106 @@
+.font-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--logo-special-color);
+}
+.logo-color-black {
+  color: #000;
+}
+.logo-color-white {
+  color: #fff;
+}
+.main-font-normal {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.main-font-normal:hover,
+.main-font-normal:focus {
+  color: var(--logo-special-color);
+  line-height: 16.41px;
+}
+.main-font-normal.current {
+  color: var(--logo-special-color);
+}
+.contact-color {
+  color: var(--special-grey-color);
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.contact-color:hover,
+.contact-color:focus {
+  color: var(--logo-special-color);
+  line-height: 16.41px;
+}
+.hero-color {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  background-color: var(--bgc-hero-footer);
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.order-a-service {
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.horizontal-list li {
+  display: inline;
+}
+.our-advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.our-advantages-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--special-grey-color);
+  letter-spacing: 0.03em;
+}
+.what-we-do-and-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.background-color-team {
+  background-color: #f5f4fa;
+}
+.team-personal-name {
+  font-weight: 500;
+  line-height: 19px;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+.team-personal-sub {
+  line-height: 19px;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+.address-color {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  letter-spacing: 0.03em;
+}
+.footer-background {
+  background-color: var(--bgc-hero-footer);
+}
